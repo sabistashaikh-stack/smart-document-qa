@@ -31,5 +31,3 @@ TOP_K = 4               # how many chunks to retrieve per query
 ANTHROPIC_API_KEY = os.environ.get("ANTHROPIC_API_KEY", "")
 ANTHROPIC_MODEL = "claude-sonnet-4-5"
 
-# FastAPI backend URL, used by the Streamlit frontend
-BACKEND_URL = os.environ.get("BACKEND_URL", "http://localhost:8000")
